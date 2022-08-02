@@ -19,6 +19,7 @@ export default function Editor() {
         className={classes.textarea}
         onChange={handleChange}
         value={markdown}
+        spellCheck="false"
       />
       <UtilityBar />
     </div>
