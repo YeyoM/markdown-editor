@@ -6,13 +6,18 @@
   font-family: 'Fira Code', monospace;;
 }
 
+.textareaContainer {
+  width: calc(100% - 4rem);
+  height: calc(100vh - 2rem);
+  overflow: hidden;
+}
+
 .textarea {
   width: calc(100% - 4rem);
-  height: calc(100vh - 6rem);
-  padding: 2rem;
+  height: calc(100vh - 2rem);
   resize: none;
   border: none;
   outline: none;
-  font-size: 1.3rem;
-  border-bottom: 1px solid black;
+  padding: 0.2rem 4rem 0rem 4rem;
+  font-size: 1.2rem;
 }

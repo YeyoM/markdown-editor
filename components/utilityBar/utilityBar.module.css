@@ -1,6 +1,40 @@
 .utilityBar {
   height: 2rem;
   width: 100%;
+  display: block;
   position: fixed;
-  bottom: 0
+  bottom: 0;
+  border-top: 1px solid black;
+  z-index: 1;
+  background-color: #fafafa;
+}
+
+.clearBtn {
+  height: 100%;
+  border: none;
+  border-right: 1px solid black;
+  padding: 0 1.5rem;
+  background-color: #ffffff;
+  font-size: 1rem;
+  transition: all 0.25s;
+}
+
+.clearBtn:hover {
+  cursor: pointer;
+  background-color: #ff9900;
+}
+
+.copyBtn {
+  height: 100%;
+  border: none;
+  border-right: 1px solid black;
+  padding: 0 1.5rem;
+  background-color: #ffffff;
+  font-size: 1rem;
+  transition: all 0.25s;
+}
+
+.copyBtn:hover {
+  cursor: pointer;
+  background-color: #ff9900;
 }

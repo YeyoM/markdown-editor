@@ -15,12 +15,14 @@ export default function Editor() {
 
   return (
     <div className={classes.editor}>
-      <textarea 
+      <div className={classes.textareaContainer}>
+              <textarea 
         className={classes.textarea}
         onChange={handleChange}
         value={markdown}
         spellCheck="false"
       />
+      </div>
       <UtilityBar />
     </div>
   )
