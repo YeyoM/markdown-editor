@@ -1,6 +1,8 @@
 .preview {
-  width: 100%;
-  height: 100%;
+  width: calc(100% - 4rem);
+  height: calc(100% - 4rem);
   overflow: hidden;
   font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+  padding: 2rem;
 }
