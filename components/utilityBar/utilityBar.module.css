@@ -38,3 +38,33 @@
   cursor: pointer;
   background-color: #ff9900;
 }
+
+.saveBtn {
+  height: 100%;
+  border: none;
+  border-right: 1px solid black;
+  padding: 0 1.5rem;
+  background-color: #ffffff;
+  font-size: 1rem;
+  transition: all 0.25s;
+}
+
+.saveBtn:hover {
+  cursor: pointer;
+  background-color: #ff9900;
+}
+
+.githubBtn {
+  height: 100%;
+  border: none;
+  border-right: 1px solid black;
+  padding: 0 1.5rem;
+  background-color: #ffffff;
+  font-size: 1rem;
+  transition: all 0.25s;
+}
+
+.githubBtn:hover {
+  cursor: pointer;
+  background-color: #ff9900;
+}
